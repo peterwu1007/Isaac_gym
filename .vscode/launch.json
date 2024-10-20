@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Train",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/peter/isaacgym/python/examples/IsaacGymEnvs/isaacgymenvs/train.py",
+            "args": ["task=BallBalance"],
+            "pythonPath": "/home/peter/anaconda3/envs/rlgpu/bin/python",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "console": "integratedTerminal"
+        }
+    ]
+}
